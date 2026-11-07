@@ -15,21 +15,39 @@
             background-color: #fff;
         }
         nav {
-            padding: 40px 0;
-            border-bottom: 1px solid #eee;
-            margin-bottom: 40px;
+            background-color: #1b4332;
+            padding: 20px 0;
+            margin-bottom: 60px;
+            text-align: center;
+            border-bottom: 3px solid #081c15;
         }
         nav a {
-            margin-right: 20px;
+            margin: 0 15px;
             text-decoration: none;
-            color: #000;
+            color: #ffffff;
             font-weight: 500;
+            transition: color 0.2s;
         }
         nav a:hover {
-            color: #0070f3;
+            color: #95d5b2;
         }
         h1 { font-weight: 700; margin-bottom: 20px; }
-        footer { margin-top: 100px; font-size: 0.8em; color: #888; }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #1b4332;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #2d6a4f;
+        }
+        footer { margin-top: 100px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; padding-top: 20px; }
     </style>
 </head>
 <body>
@@ -41,12 +59,14 @@
     </nav>
 
     <h1>Lecture de la semaine</h1>
-    <p>Liste des ouvrages ou articles à lire :</p>
+    <p>Liste des lectures en cours :</p>
     <ul>
-        <li>Titre du livre 1</li>
-        <li>Titre du livre 2</li>
+        <li>Livre A - Chapitre 1</li>
+        <li>Article B - Analyse politique</li>
     </ul>
     
+    <a href="index.html" class="btn">Retour à l'accueil</a>
+
     <footer>© 2026 - Créé avec simplicité.</footer>
 </body>
 </html>
